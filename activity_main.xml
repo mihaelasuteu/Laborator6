@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ff80b3">
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/colorAccent"
+        tools:text="Enter some text here"
+        android:textColorHighlight="@color/colorAccent"
+        android:textCursorDrawable="@color/colorPrimaryDark"
+        android:textColorLink="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        tools:text="Enter some text here" />
+
+    <Button
+        android:id="@+id/savedatabutton"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/gotosecondactivity"
+        android:layout_width="125dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-78dp"
+        android:background="@drawable/android"
+        android:text="GO TO SECOND ACTIVITY" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="After saving, on subsequent go to second activity without  saving. You will still see the saved data" />
+
+
+</LinearLayout>
